@@ -1,16 +1,35 @@
-# flutter_simple_route_animation
+## Flutter UI - Simple Route Animation
 
-A new Flutter project.
+```dart
+void main() => runApp(MaterialApp(
+      debugShowCheckedModeBanner: false,
+      initialRoute: '/',
+      onGenerateRoute: (settings) {
+        if (settings.name == '/second') {
+          final arguments = settings.arguments as TransitionArguments;
+          return RouteAnimation.slide(
+              settings, arguments.offset, const SecondScreen());
+        } else {
+          return RouteAnimation.slide(
+              settings, const Offset(1, 0), const HomeScreen());
+        }
+      },
+    ));
+```
 
-## Getting Started
+## Development Setup
+```
+git clone https://github.com/afifudinx/flutter-simple-route-animation.git
+cd flutter-simple-route-animation
+flutter pub get
+flutter run
+```
 
-This project is a starting point for a Flutter application.
+## Screenshots
+<img src="screenshots/1.png" />
 
-A few resources to get you started if this is your first Flutter project:
+## Links
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* [Website](https://afifudinx.vercel.app/flutter)
+* [Youtube channel](https://youtube.com/idnflutter)
+* [Instagram](https://instagram.com/idnflutter)
