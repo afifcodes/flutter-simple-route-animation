@@ -19,7 +19,7 @@ void main() => runApp(MaterialApp(
 
 ## Development Setup
 ```
-git clone https://github.com/afifudinx/flutter-simple-route-animation.git
+git clone https://github.com/afifcodes/flutter-simple-route-animation.git
 cd flutter-simple-route-animation
 flutter pub get
 flutter run
@@ -30,6 +30,6 @@ flutter run
 
 ## Links
 
-* [Website](https://afifudinx.vercel.app/flutter)
-* [Youtube channel](https://youtube.com/idnflutter)
-* [Instagram](https://instagram.com/idnflutter)
+* [Website](https://afifcodes.vercel.app/flutter)
+* [Youtube channel](https://youtube.com/afifcodes)
+* [Instagram](https://instagram.com/afifcodes)
