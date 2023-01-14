@@ -19,8 +19,8 @@ void main() => runApp(MaterialApp(
 
 ## Development Setup
 ```
-git clone https://github.com/afifcodes/flutter-simple-route-animation.git
-cd flutter-simple-route-animation
+git clone https://github.com/afifcodes/flutter-simple-route-animation-example.git
+cd flutter-simple-route-animation-example
 flutter pub get
 flutter run
 ```
